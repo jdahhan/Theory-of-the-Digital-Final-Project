@@ -72,7 +72,7 @@ video{
     font-weight: bold;
     font-size: 20px;
     padding: 4px;
-    background-image: linear-gradient(to left, #FF1F3FFF 50%, #ffdb4aFF 50%);
+    background-image: linear-gradient(to right, #FF1F3FFF 50%, #ffdb4aFF 50%);
     border: 0px;
     opacity: 0;
     background-position: 0%;
@@ -83,25 +83,28 @@ video{
     bottom: 200vh;
 }
 .button.active{
-    bottom: 12vh;
     opacity: .9;
     width: 10vw;
-    left: 46vw;
 }
 button.active.try {
+    bottom: 12vh;
     left: 35vw;
 }
 button.active.openmodal {
+    bottom: 12vh;
     left: 55vw;
 }
 .button:hover{
     background-position: 100%;
 }
 .modal{
+    font-family: sans-serif;
     position: relative;
     z-index: 4;
-    background-image: linear-gradient(120deg, #ffa200b3, #f6ff00b3);
+    background-image: linear-gradient(120deg, #ffa200E4, #f6ff00E4);
     border-radius: 10px;
+    overflow: auto;
+    padding: 20px;
 }
 .modalcontainer{
     padding: 10vh 20vw 10vh 20vw;
@@ -111,4 +114,27 @@ button.active.openmodal {
     justify-items: center;
     width: 100%;
     height: 100%;
+}
+.buttoncontainer{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: auto;
+    width: 100%;
+}
+img{
+    opacity: 1;
+    width: 100%;
+}
+.button.active.exit{
+    position: static;
+}
+ul{
+    padding-left: 2vw;
+}
+p{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }

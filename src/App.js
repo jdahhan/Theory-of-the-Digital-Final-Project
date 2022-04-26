@@ -56,7 +56,7 @@ function App() {
         if (typingPhase){
             setText('');
         } else{
-            setTimeout(() => {setButtonVisible(true);}, 2000);
+            setTimeout(() => {setButtonVisible(true);}, 3000);
         }
     }, [typingPhase])
     return (
