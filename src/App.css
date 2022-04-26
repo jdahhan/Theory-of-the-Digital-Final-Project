@@ -50,11 +50,13 @@ video{
     width: 85%;
 }
 .input{
+    display: block;
+    padding-left: 1vw;
+    padding-right: 1vw;
     top: 5vh;
     font-size: 54px;
     background-color: rgba(0, 0, 0, .1);
     border-radius: 5px;
-    min-width: 2vw;
     max-width: 65%;
     width: auto;
 }
