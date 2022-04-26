@@ -28,7 +28,7 @@ function App() {
         setModalVisible(true);
     }
     const handleEnter = (e)=>{
-        if (e.key == "Enter"){
+        if (e.key === "Enter"){
             setPhase(!typingPhase);
             getQuestion();
         }
