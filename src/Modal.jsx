@@ -27,10 +27,10 @@ const Modal = ({setModal}) => {
             </p>
             <p>
                 Sources:<p>
-                    <p>
+                    <p className='citation'>
                     Ronson, Jon. <a href='https://www.nytimes.com/2015/02/15/magazine/how-one-stupid-tweet-ruined-justine-saccos-life.html'>“How One Stupid Tweet Blew Up Justine Sacco's Life.”</a> <i>The New York Times,</i> The New York Times, 12 Feb. 2015.
                     </p>
-                    <p>
+                    <p className='citation'>
                     Suler, John. <a href='http://drleannawolfe.com/Suler-TheOnlineDisinhibitionEffect-2004.pdf'>“The Online Disinhibition Effect.”</a> <i>CyberPsychology &amp; Behavior,</i> vol. 7, no. 3, 28 July 2004, pp. 321–326., https://doi.org/10.1089/1094931041291295. 
                     </p>
                 </p>
