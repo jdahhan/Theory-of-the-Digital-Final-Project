@@ -31,6 +31,7 @@ const Modal = ({setModal}) => {
             </p><p>
                 There are many difficult questions that arise from discussing the online disinhibition effect. It is difficult to know whether we should understand the online disinhibition effect as a reflection of people’s true nature or a distortion of character brought on by the internet. Even more complicated is the question of how to combat this. Cancel culture is certainly one answer, but some would argue that it is more of an expression of online disinhibition than a reflex against it. These questions may be hard to answer, but a thorough understanding of the phenomenon might help us combat things like cyberbullying while preserving the areas in which disinhibition can be a net positive.
             </p>
+            <br></br><br></br>
             <p>
                 Sources:<p>
                     <p className='citation'>
