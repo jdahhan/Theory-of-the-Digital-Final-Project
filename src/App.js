@@ -7,7 +7,9 @@ const questions = [
     "What would you do with the most attractive person you've ever seen?",
     "How do you feel about the person you hate most in the world?",
     "Who is someone you find incredibly repulsive and why?",
-    "What is the lowest point you've ever experienced in your life?"
+    "What is the lowest point you've ever experienced in your life?",
+    "What are your most controversial political views?",
+    "What do you think happens when we die?"
 ]
 
 function App() {
